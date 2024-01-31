@@ -1,0 +1,16 @@
+// jsconfig.json at project root
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+          "@Components/*": ["src/components/*"],
+          "@Utils/*": ["src/utils/*"],
+          "@Views/*": ["src/views/*"],
+
+        },
+        "module": "CommonJS",
+        "target": "ES6",
+        "jsx": "react-jsx",
+      },
+      "include": ["src/**/*"]
+}
