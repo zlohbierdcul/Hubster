@@ -9,7 +9,11 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
+# quadro
+README.html
+README_files
 
 # Thumbnails
 ._*

@@ -31,17 +31,39 @@ function App() {
                 change mode
             </button>
             <div className='justify-center flex flex-col items-center font-bold text-xl'>
-                <p className='dark:text-text-dark text-text-light h-16 pt-4'>
+                <p className='dark:text-text-dark text-text-light text-5xl py-4'>
                     Hubster
                 </p>
-                <div className='grid grid-cols-3 gap-6 h-32 justify-items-center items-center'>
-                    <div className='rounded p-2 dark:bg-primary-dark bg-primary-light dark:text-text-dark text-text-light'>
+                <div className='grid grid-cols-3 gap-6 py-2 justify-items-center items-center'>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-primary-dark bg-primary-light dark:text-text-dark text-text-light'>
                         Primary
                     </div>
-                    <div className='rounded p-2 dark:bg-secondary-dark bg-secondary-light dark:text-text-dark text-text-light'>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-secondary-dark bg-secondary-light dark:text-text-dark text-text-light'>
                         Secondary
                     </div>
-                    <div className='rounded p-2 dark:bg-accent-dark bg-accent-light dark:text-text-dark text-text-light'>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-accent-dark bg-accent-light dark:text-text-dark text-text-light'>
+                        Accent
+                    </div>
+                </div>
+                <div className='grid grid-cols-3 gap-6 py-2 justify-items-center items-center opacity-50'>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-primary-dark bg-primary-light dark:text-text-dark text-text-light'>
+                        Primary
+                    </div>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-secondary-dark bg-secondary-light dark:text-text-dark text-text-light'>
+                        Secondary
+                    </div>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-accent-dark bg-accent-light dark:text-text-dark text-text-light'>
+                        Accent
+                    </div>
+                </div>
+                <div className='grid grid-cols-3 gap-6 py-2 justify-items-center items-center opacity-20'>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-primary-dark bg-primary-light dark:text-text-dark text-text-light'>
+                        Primary
+                    </div>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-secondary-dark bg-secondary-light dark:text-text-dark text-text-light'>
+                        Secondary
+                    </div>
+                    <div className='rounded h-40 w-40 p-2 dark:bg-accent-dark bg-accent-light dark:text-text-dark text-text-light'>
                         Accent
                     </div>
                 </div>
